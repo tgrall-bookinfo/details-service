@@ -25,3 +25,9 @@ EXPOSE 9080
 WORKDIR /opt/microservices
 
 CMD ["ruby", "details.rb", "9080"]
+
+LABEL org.opencontainers.image.authors="GitHub Solutions Engineering" \
+    org.opencontainers.image.url="${repo_url}" \
+    org.opencontainers.image.documentation="${repo_url}/README.md" \
+    org.opencontainers.image.source="${repo_url}"
+    org.opencontainers.image.title="Bookinfo Details Service"
