@@ -70,7 +70,7 @@ def get_book_details(id, headers)
         'year': 1595,
         'type' => 'paperback',
         'pages' => 200,
-        'publisher' => 'PublisherA',
+        'publisher' => 'Publisher Alpha',
         'language' => 'English',
         'ISBN-10' => '1234567890',
         'ISBN-13' => '123-1234567890'
